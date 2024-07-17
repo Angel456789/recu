@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Recuperación</title>
+</head>
+<body>
+  <div class="container" style="margin-top: 2%;">
+    <h1 style="text-align: center;margin: 2%;">Evaluar Ecuacion de 2° Grado</h1>
+    <form id="form">
+      <div class="row g-3">
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Coeficiente a" id="a">
+          <p id="error" style="color: red; font-size: 1vw;"></p>
+        </div>
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Coeficiente b" id="b">
+        </div>
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Coeficiente c" id="c">
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-sm">
+          <input type="submit" name="enviar" id="enviar" value="Evaluar" class="btn-primary btn form-control">
+        </div>
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="container">
+      <div id="tabla"></div>
+  </div>
+  <div class="container">
+    <div id="mensaje"></div>
+  </div>
+  <script src="js/recuperacion.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
